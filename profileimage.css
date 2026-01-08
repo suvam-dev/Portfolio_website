@@ -1,0 +1,23 @@
+.image-container
+{
+    width: 50vh;
+    top: 0px;
+    right: 0px;
+}
+.image-container img
+{
+    width: 90%;
+    height: auto;
+    border-radius: 1000px ;
+    transition: all 0.35s ease-in-out;
+}
+.image-container img:hover{
+      box-shadow: 0 0 13px 5px rgba(240, 253, 0, 0.6);
+   width: 93%;
+}
+@media (max-width: 900px) {
+    .image-container {
+        width: 100%;
+        max-width: 300px;
+    }
+}
