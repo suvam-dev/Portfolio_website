@@ -123,4 +123,18 @@
         margin-top: 0px;
         justify-content: center;
     }
+    .p1 img {
+         margin:0px;
+    }
+    .p1 div {
+        margin:0px;
+    }
+}
+.p1 img{
+    width:100%;
+    margin:10px;
+    border-radius: 20px;
+}
+.p1 div{
+    margin:10px;
 }
