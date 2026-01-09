@@ -10,15 +10,15 @@ nav{
     height: 75px;
     align-items: center;
     padding: 0 50px;
-    background: #020024;
-   background: linear-gradient(318deg,rgba(2, 0, 36, 1) 22%, rgba(9, 9, 121, 1) 68%, rgba(41, 223, 255, 1) 100%);
+    background: #000004;
+   /* background: linear-gradient(318deg,rgba(2, 0, 36, 1) 22%, rgba(9, 9, 121, 1) 68%, rgba(41, 223, 255, 1) 100%); */
     cursor: pointer;
     position:sticky;
     top:0px;
     color:white;
     z-index: 100;
     box-shadow: 10px -1px 13px 0px rgba(254, 254, 254, 0.6);
-    transition: box-shadow 0.3s ease-in-out;
+    transition: box-shadow 0.3s ease-in-out;ß
 }
 nav:hover{
      box-shadow: 10px -1px 20px 10px rgba(213, 206, 206, 0.76); 
