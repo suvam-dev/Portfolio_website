@@ -48,3 +48,57 @@ nav div a:hover {
 div{
      cursor : pointer;
 }
+.hamburger
+{
+    display:none;
+}
+.navbar-mobile{
+        margin:0;
+        background-color: blue;
+        position: fixed;
+        display:none;
+        flex-direction: column;
+        max-width: 100px;
+        justify-content: end;
+        right: 0;
+        z-index:100;
+    }
+@media (max-width:600px)
+{
+    .Left-icons
+    {
+        display:none;
+    }
+    .hamburger
+    {
+         display: flex;
+         justify-content: end;
+         background-color: transparent;
+         border: none;
+    }
+    .hamburger i {
+          font-size:25px;
+    }
+    .navbar-active{
+        margin:0;
+        background-color: #000004;
+        position: fixed;
+        display:flex;
+        flex-direction: column;
+        max-width: 100px;
+        justify-content: end;
+        right: 0px ;
+        z-index:100;
+        padding:0 30px;
+    }
+    nav {
+        padding:0 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-active  a{
+        margin:10px;
+    }
+    .navbar-active a:hover{
+        color: #515154c6;
+    }
+}
