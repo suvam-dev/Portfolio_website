@@ -30,3 +30,16 @@
     color:azure;
     margin-top: 10px;
 }
+.readmore
+{
+    display:block;
+    border:none;
+    background: none;
+    color: white;
+    font-size: 30px;
+}
+.readmore:hover
+{
+    cursor: pointer;
+    color: rgb(240, 255, 104);
+}
