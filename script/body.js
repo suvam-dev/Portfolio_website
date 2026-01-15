@@ -57,8 +57,8 @@ readmore();
             aboutMe.forEach((item,i) =>
             {
                 about.innerHTML+=`<div class="about-section-content">${item}</div>`;
-            })
-            about.innerHTML+=`<button class="readmore"  > &#8593; </button>`;
+            }) 
+            about.innerHTML+=`<button class="readmore"> <a href='#about' class='readmore' >&#8593; </a></button>`;
             const readmorebtn=document.querySelector('.readmore');
             readmorebtn.addEventListener('click',readmore);
        }
